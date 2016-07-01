@@ -2,6 +2,8 @@
 
 [![rice cake pounding](https://img.youtube.com/vi/T44R78e2Dms/0.jpg)](https://www.youtube.com/watch?v=T44R78e2Dms)
 
+see: [https://nbqx.github.io/react-ricecake/](https://nbqx.github.io/react-ricecake/)
+
 ## usage
 
 ```js
@@ -14,3 +16,4 @@ render (
   document.getElementById('main')
 )
 ```
+
