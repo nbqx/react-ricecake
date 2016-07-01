@@ -1,0 +1,26 @@
+{
+  "name": "ricecake",
+  "description": "",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/react-ricecake.git"
+  },
+  "homepage": "https://github.com/nbqx/react-ricecake",
+  "main": "src/RiceCake.js",
+  "scripts": {
+    "example-build": "./node_modules/.bin/browserify example/example.js -o example/build.js -t [ babelify --presets [ es2015 react ] ]"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1"
+  }
+}
